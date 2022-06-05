@@ -85,4 +85,3 @@ class ExtractData:
                         .unstack(1) \
                         .sort_values( by=0, ascending=True) 
         return dfMentalIllnessByRace
-
